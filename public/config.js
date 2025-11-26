@@ -3,6 +3,8 @@ window.Config = {
   // 显示标题
   SiteName: 'Uptime Monitor',
 
+  Subtitle: '北海-实时监控网站状态和可用性',
+
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [

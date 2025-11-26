@@ -17,7 +17,7 @@
 
 ---
 
-![Uptime Monitor Screenshot](https://user-images.githubusercontent.com/25887822/178935137-6d23521d-5894-4fb8-922d-3575be4f7abc.png)
+![Uptime Monitor Screenshot](./public/test.webp)
 
 </div>
 
@@ -262,8 +262,20 @@ npm run build
   如果这个项目对您有帮助，请给我们一个 ⭐️
 
   Made with ❤️ by [BeiHaiWiki](https://beihai.wiki/)
+
 </div>
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=BeihaiWiki/uptime-monitor&type=date&legend=top-left)](https://www.star-history.com/#BeihaiWiki/uptime-monitor&type=date&legend=top-left)
+
+
+
+## 有需要或问题联系我
+
+[也可以关注我的博客](http://www.beihai.wiki)
+
+|          微信          |           QQ           |
+| :--------------------: | :--------------------: |
+| ![Wx](./public/wx.png) | ![QQ](./public/qq.jpg) |
+

@@ -177,7 +177,8 @@ function App() {
       <aside className='sidebar'>
         <div className='sidebar-header'>
           <h1 className='logo'>{window.Config.SiteName}</h1>
-          <p className='subtitle'>实时监控网站状态和可用性</p>
+          {/* <p className='subtitle'></p> */}
+          <p className='subtitle'>{window.Config.Subtitle}</p>
         </div>
         <nav className='sidebar-nav'>
           <div className='nav-section'>
