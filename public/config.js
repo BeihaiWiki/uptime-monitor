@@ -17,20 +17,21 @@ window.Config = {
 
   // 高级配置选项（可选）
   // AdvancedConfig: {
-  //   includeResponseTimes: false, // 是否包含响应时间数据（会影响性能）
-  //   enableTimezone: true, // 是否启用时区显示（已默认启用）
-  //   maxMonitors: 50, // 最大监控器数量（已默认设置）
+  //   includeResponseTimes: false,  // 包含响应时间数据（会影响性能）
+  //   enableTimezone: true,         // 启用时区显示（已默认启用）
+  //   maxMonitors: 50,             // 最大监控器数量（已默认设置）
+  //   refreshInterval: 60000       // 刷新间隔（毫秒）
   // },
 
   // 导航栏菜单
   Navi: [
     {
       text: 'Homepage',
-      url: 'https://status.beihai.wiki/'
+      url: 'https://monitor.beihai.wiki/'
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/BeiHaiWiki'
+      url: 'https://github.com/BeihaiWiki/uptime-monitor'
     },
     {
       text: 'Blog',

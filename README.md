@@ -6,14 +6,14 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
-[![GitHub stars](https://img.shields.io/github/stars/yb/uptime-monitor?style=social)](https://github.com/yb/uptime-monitor/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yb/uptime-monitor?style=social)](https://github.com/yb/uptime-monitor/network)
+[![GitHub stars](https://img.shields.io/github/stars/BeihaiWiki/uptime-monitor?style=social)](https://github.com/yb/uptime-monitor/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/BeihaiWiki/uptime-monitor?style=social)](https://github.com/yb/uptime-monitor/network)
 
 **🚀 基于 UptimeRobot API 的现代化在线状态监控面板**
 
 一个开源、美观、易用的网站状态监控解决方案，实时展示您的网站可用性和性能数据。
 
-[查看演示](https://status.beihai.wiki/) · [报告问题](https://github.com/yb/uptime-monitor/issues) · [功能请求](https://github.com/yb/uptime-monitor/issues/new?template=feature_request.md)
+[查看演示](https://monitor.beihai.wiki/) · [报告问题](https://github.com/BeihaiWiki/uptime-monitor/issues) · [功能请求](https://github.com/BeihaiWiki/uptime-monitor/issues/new?template=feature_request.md)
 
 ---
 
@@ -74,7 +74,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yb/uptime-monitor.git
+git clone git@github.com:BeihaiWiki/uptime-monitor.git
 cd uptime-monitor
 
 # 安装依赖
@@ -88,8 +88,6 @@ npm run build
 ```
 
 ## 📋 配置说明
-
-### 基础配置
 
 | 参数 | 类型 | 说明 | 默认值 |
 |------|------|------|--------|
@@ -137,6 +135,25 @@ window.Config = {
 | Vercel | Git 集成 | 连接 GitHub 仓库 |
 | 阿里云 OSS | 上传文件 | 静态网站托管 |
 | Nginx | 配置代理 | 反向代理到静态文件 |
+
+## 🔧 配置详解
+
+### 基础配置
+
+编辑 `public/config.js` 文件进行基础配置：
+
+```javascript
+window.Config = {
+  SiteName: '我的状态监控',  // 显示标题
+  ApiKeys: ['your-api-key'],  // UptimeRobot API 密钥
+  CountDays: 60,              // 显示天数
+  ShowLink: true,             // 是否显示站点链接
+  Navi: [                     // 导航菜单
+    { text: '首页', url: 'https://example.com' },
+    { text: 'GitHub', url: 'https://github.com/username' }
+  ]
+};
+```
 
 ### Nginx 配置示例
 
@@ -192,7 +209,7 @@ server {
 ### 开发环境设置
 
 ```bash
-# 安装依赖
+# 安装依赖，推荐使用pnpm
 npm install
 
 # 启动开发服务器
@@ -213,21 +230,40 @@ npm run build
 
 - [UptimeRobot](https://uptimerobot.com/) - 提供强大的监控 API
 - [React](https://reactjs.org/) - 现代化的前端框架
+- [uptime-status](https://github.com/yb/uptime-status/) - 一代开发者
 - 所有贡献者和支持者
 
 ## 📊 项目统计
 
-![GitHub repo size](https://img.shields.io/github/repo-size/yb/uptime-monitor)
-![GitHub last commit](https://img.shields.io/github/last-commit/yb/uptime-monitor)
-![GitHub issues](https://img.shields.io/github/issues/yb/uptime-monitor)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yb/uptime-monitor)
+![GitHub repo size](https://img.shields.io/github/repo-size/BeihaiWiki/uptime-monitor)
+![GitHub last commit](https://img.shields.io/github/last-commit/BeihaiWiki/uptime-monitor)
+![GitHub issues](https://img.shields.io/github/issues/BeihaiWiki/uptime-monitor)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/BeihaiWiki/uptime-monitor)
+
+## 🙏 致谢
+
+- [UptimeRobot](https://uptimerobot.com/) - 提供强大的监控 API
+- [React](https://reactjs.org/) - 现代化的前端框架
+- [uptime-status](https://github.com/yb/uptime-status/) - 一代开发者
+- 所有贡献者和支持者
+
+## 📊 项目统计
+
+![GitHub repo size](https://img.shields.io/github/repo-size/BeihaiWiki/uptime-monitor)
+![GitHub last commit](https://img.shields.io/github/last-commit/BeihaiWiki/uptime-monitor)
+![GitHub issues](https://img.shields.io/github/issues/BeihaiWiki/uptime-monitor)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/BeihaiWiki/uptime-monitor)
+![GitHub license](https://img.shields.io/github/license/BeihaiWiki/uptime-monitor)
 
 ---
 
 <div align="center">
 
-**如果这个项目对您有帮助，请给我们一个 ⭐️**
+  如果这个项目对您有帮助，请给我们一个 ⭐️
 
-Made with ❤️ by [BeiHaiWiki](https://beihai.wiki/)
-
+  Made with ❤️ by [BeiHaiWiki](https://beihai.wiki/)
 </div>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=BeihaiWiki/uptime-monitor&type=date&legend=top-left)](https://www.star-history.com/#BeihaiWiki/uptime-monitor&type=date&legend=top-left)
