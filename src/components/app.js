@@ -355,7 +355,7 @@ function App() {
         <div id='footer'>
           <div className='footer-content'>
             <div className='footer-info'>
-              <p>基于 <Link to='https://uptimerobot.com/' text='UptimeRobot' /> 接口制作，检测频率 5 分钟</p>
+              <p>@2025 基于 <Link to='https://uptimerobot.com/' text='UptimeRobot V2' /> 接口制作，检测频率 5 分钟</p>
             </div>
             <div className='footer-meta'>
               <p>Version <span className='version'>{Package.version}</span></p>
