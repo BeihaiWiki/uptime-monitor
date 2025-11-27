@@ -247,19 +247,11 @@ npm run build
 - [uptime-status](https://github.com/yb/uptime-status/) - 一代开发者
 - 所有贡献者和支持者
 
-## 📊 项目统计
-
-![GitHub repo size](https://img.shields.io/github/repo-size/BeihaiWiki/uptime-monitor)
-![GitHub last commit](https://img.shields.io/github/last-commit/BeihaiWiki/uptime-monitor)
-![GitHub issues](https://img.shields.io/github/issues/BeihaiWiki/uptime-monitor)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/BeihaiWiki/uptime-monitor)
-![GitHub license](https://img.shields.io/github/license/BeihaiWiki/uptime-monitor)
-
 ---
 
 <div align="center">
 
-  如果这个项目对您有帮助，请给我们一个 ⭐️
+  如果这个项目对您有帮助，请给我一个 ⭐️
 
   Made with ❤️ by [BeiHaiWiki](https://beihai.wiki/)
 
@@ -267,7 +259,13 @@ npm run build
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=BeihaiWiki/uptime-monitor&type=date&legend=top-left)](https://www.star-history.com/#BeihaiWiki/uptime-monitor&type=date&legend=top-left)
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=BeihaiWiki/uptime-monitor&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?reposBeihaiWiki/uptime-monitor&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=BeihaiWiki/uptime-monitor&type=Date&legend=top-left" />
+</picture>
 
 
 
